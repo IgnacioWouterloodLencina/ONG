@@ -1,0 +1,13 @@
+body {
+
+background-color: bisque;
+text-align: center;
+}
+
+.butao {
+
+    border-radius: 50px;
+    border-color: bisque;
+    box-shadow: 0px 0px bisque;
+    background-color: rgb(252, 197, 161);
+}
