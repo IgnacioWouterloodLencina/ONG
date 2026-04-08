@@ -8,6 +8,6 @@ let moradia = document.getElementById("moradia").value;
 let quintal = document.querySelector('input[name="quintal"]:checked');
 
 if(nome.length < 3) return alert("Nome Inválido");
-document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + nome:
+document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "nome" + nome;
 
 });
