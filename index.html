@@ -9,60 +9,91 @@
 
 <body>
     <nav>
-        <h2>Formulário de Adoção</h2>
+        <div class="padding1">
+            <h2>Formulário de Adoção</h2>
+        </div>
 
     </nav>
-    <form id="formAdocao">
-        <label for="nome">nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu nome">
-        <br>
-        <label for="email">email:</label>
-        <input type="email" id="email" placeholder="Digite seu email">
-        <br>
-        <label for="idade">idade:</label>
-        <input type="number" id="idade" placeholder="Digite seu idade">
-        <br>
-
-        <label for="idade">idade:</label>
-        <input type="number" id="idade" placeholder="Digite seu idade">
-        <br>
-
-        <label for="telefone">telefone:</label>
-        <input type="number" id="telefone" placeholder="Digite seu telefone">
-        <br>
-         <label for="cpf">cpf:</label>
-        <input type="number" id="cpf" placeholder="Digite seu cpf">
-        <br>
-        <label for="motivo">motivo:</label>
-        <input type="text" id="motivo" placeholder="Digite seu motivo">
-        <br>
-
-
-        <label for="moradia"> moradia: </label>
-        <select name="moradia" id="moradia">
-            <option value=""> Selecione</option>
-            <option value="casa">Casa</option>
-            <option value="apartamento">Apartamento</option>
-        </select>
-        <br>
-         <label for="apt">casa permite pet?</label>
-        <input type="radio" name="apt" value="aptsim">Sim
-        <input type="radio" name="apt" value="aptnao">Não moro em apto
-        <br>
-        <label for="quintal">Possui Quintal?</label>
-        <input type="radio" name="quintal" value="sim">Sim
-        <input type="radio" name="quintal" value="nao">Não
-        <br>
-        <label for="jateve">ja teve cachorro?</label>
-        <input type="radio" name="jateve" value="simteve">Sim
-        <input type="radio" name="jateve" value="naoteve">Não
-        <br>
-
-        <label for="cidade">cidade:</label>
-        <input type="text" id="cidade" placeholder="Digite seu cidade">
-        <br>
-        <button class="butao" type="submit">enviar</button>
-    </form>
+    <br>
+    <div class="padding1">
+        <form id="formAdocao">
+            <div class="padding2">
+                <label for="nome">nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="email">email:</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="idade">idade:</label>
+                <input type="number" id="idade" placeholder="Digite seu idade">
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="temp">tempo sozinho:</label>
+                <input type="number" id="temp" placeholder="Digite seu tempo sozinho">
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="telefone">telefone:</label>
+                <input type="number" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <br>
+             <div class="padding2">
+                 <label for="cpf">cpf:</label>
+                             <input type="number" id="cpf" placeholder="Digite seu cpf">
+             </div>
+            <br>
+            <div class="padding2">
+                <label for="motivo">motivo:</label>
+                <input type="text" id="motivo" placeholder="Digite seu motivo">
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="moradia"> moradia: </label>
+                <select name="moradia" id="moradia">
+                    <option value=""> Selecione</option>
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                </select>
+            </div>
+            <br>
+             
+                 <div class="padding2">
+                     <label for="apt">casa permite pet?</label><br>
+                             <input type="radio" name="apt" value="aptsim">Sim <br>
+                             <input type="radio" name="apt" value="aptnao">Não moro em apto
+                 </div>
+            
+            <br>
+            <div class="padding2">
+                <label for="quintal">Possui Quintal?</label><br>
+                <input type="radio" name="quintal" value="sim">Sim<br>
+                <input type="radio" name="quintal" value="nao">Não
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="jateve">ja teve cachorro?</label><br>
+                <input type="radio" name="jateve" value="simteve">Sim<br>
+                <input type="radio" name="jateve" value="naoteve">Não
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="cidade">cidade:</label>
+                <input type="text" id="cidade" placeholder="Digite seu cidade">
+            </div>
+            <br>
+            <div class="padding2">
+                <label for="aceita">aceito us termo?</label>
+                <input type="radio" name="apt" value="aceito">aseito
+            </div>
+             <br>
+            <button class="butao" type="submit">enviar</button>
+        </form>
+    </div>
     <div id="resultado"></div>
     <script src="scripts/script.js"></script>
 </body>
